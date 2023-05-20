@@ -143,3 +143,20 @@ productButton.addEventListener("click", ()=>{
 close.addEventListener("click", ()=>{
   payment.style.display = "none"
 })
+
+// Ordered Placed
+
+const payButton = document.querySelector('.payButton')
+const orderPlaced = document.querySelector(".succefullyOrdered")
+const close1 = document.querySelector (".close1")
+
+  payButton.addEventListener("click", ()=>{
+    orderPlaced.style.display = "flex"
+    payment.style.display = "none"
+
+  })
+  close1.addEventListener("click", ()=>{
+    orderPlaced.style.display = "none"
+  })
+
+  
