@@ -493,13 +493,17 @@ nav {
 
     .fIcons {
         display: flex;
+        flex-direction: column;
     }
 
     .fIcon {
         font-size: 20px;
         margin-right: 10px;
+        cursor: pointer;
     }
-
+    .icons {
+        margin-bottom: 10px;
+    }
     .copyRight {
         font-weight: 300;
         font-size: 14px;
